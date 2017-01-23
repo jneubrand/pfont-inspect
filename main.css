@@ -1,0 +1,83 @@
+body {
+    margin: 8rem 0 0;
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+}
+
+#dropzone {
+    background: #DDD;
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+#links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 101;
+}
+
+#main {
+    margin: 2rem;
+    line-height: 1.5;
+}
+
+code {
+    background: #DDD;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    margin-right: 0.2rem;
+}
+
+code.utf {
+    font-family: -apple-system, sans-serif;
+}
+
+.content {
+    display: inline-block;
+    text-align: right;
+    min-width: 7rem;
+    margin-right: .5rem;
+}
+
+grayed {
+    opacity: .4;
+}
+
+.offset {
+    margin-right: 1em;
+}
+
+span.ok {
+    color: #080;
+}
+
+span.error {
+    color: #F00;
+}
+
+hr.huge {
+    height: 5px;
+    background: black;
+}
+
+table {
+    border-collapse: collapse;
+    border: 10px solid #333;
+}
+
+td.l, td.d {
+    width: 3px;
+    height: 3px;
+}
+
+td.l {
+    background-color: gainsboro;
+}
+
+td.d {
+    background-color: black;
+}
